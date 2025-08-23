@@ -1,0 +1,113 @@
+.menu{
+    display: flex;
+    justify-content:space-around;
+    background: rgb(82, 33, 33);
+    color: white;
+    height: 60px;
+    align-items: center;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.logo{
+    font-size: 24px;
+}
+a{
+    text-decoration: none;
+    margin: 0px 40px;
+    color: white; 
+    padding: 6px 6px;
+    transition: 0.3s ease;
+}
+
+.menu a:hover{
+    background: orange;
+    border-radius: 6px;
+
+}
+.main img{
+    width: 40%;
+    margin-top: 24px;
+}
+.main{
+    display: flex;
+    justify-content: space-around;
+    height: 550px;
+    
+}
+
+
+
+.main {
+    align-items: center;   
+}
+
+button{
+    border-radius: 12px;
+    margin: 12px 6px;
+    padding: 12px 16px;
+    background: brown;
+    color: white;
+       
+}
+
+button:hover{
+    background: rgba(255, 166, 0, 0.775);
+}
+
+.main-two{
+    height: auto;
+    background: rgb(82, 33, 33);
+}
+
+
+.main-two h1{
+    display: flex;
+    justify-content: center;
+    color: white;
+    padding-top: 12px;
+}
+
+.card{
+    text-align: center;
+    border: 1px solid;
+    background: white;
+    height: auto;
+    width: 300px;
+    padding: 10px;
+    transition: transform 0.3s ease;
+    margin: 12px 0;
+}
+
+.card img{   
+    width: 300px;
+    height: 290px;
+}
+
+.card h3  {
+    text-align: center;
+}
+
+.card p{
+    text-align: center;
+}
+.card .Order{
+    width: auto;
+    border: 1;
+    text-align: center;
+    background: brown;
+}
+
+.container-card{
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    
+}
+
+.card:hover{
+    transform: scale(1.07);
+}
+
+.card .Order:hover{
+    background: white;
+}

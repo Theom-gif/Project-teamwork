@@ -111,7 +111,6 @@ button:hover{
 .card .Order:hover{
     background: white;
 }
-<<<<<<< HEAD
 .address{
     display: flex;
     gap: 72px;
@@ -126,8 +125,7 @@ button:hover{
     padding-top: 24px;
     border-radius: 8px;
     color: blue;
-
-=======
+}
 .head{
     background-color: rgb(63, 31, 31);
     text-align: center;
@@ -167,5 +165,4 @@ button:hover{
     text-align: center;
     margin-left: 12px;
     margin-top: 50px;
->>>>>>> feature/aboutpage
 }

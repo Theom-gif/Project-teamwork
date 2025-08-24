@@ -111,3 +111,19 @@ button:hover{
 .card .Order:hover{
     background: white;
 }
+.address{
+    display: flex;
+    gap: 72px;
+    background: rgb(78, 20, 20);
+    height: 530px;
+}
+.contact{
+    padding-left: 56px;
+    color: white;
+}
+.imag img{
+    padding-top: 24px;
+    border-radius: 8px;
+    color: blue;
+
+}

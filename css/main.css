@@ -31,10 +31,14 @@ a{
 .main{
     display: flex;
     justify-content: space-around;
-    height: 550px;
-    
 }
-
+.main h1{
+    font-size:40px;
+    color:  rgb(82, 33, 33);
+}
+.text{
+    margin-top: 50px
+}
 
 
 .main {

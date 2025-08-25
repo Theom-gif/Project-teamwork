@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 .menu{
     display: flex;
     justify-content:space-around;
@@ -51,6 +55,7 @@ button{
     padding: 12px 16px;
     background: brown;
     color: white;
+    border: none;
        
 }
 
@@ -113,7 +118,7 @@ button:hover{
 }
 
 .card .Order:hover{
-    background: white;
+    background-color: rgba(255, 166, 0, 0.775); ;
 }
 .address{
     display: flex;

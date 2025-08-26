@@ -13,12 +13,14 @@
 ![alt text](image.png)
 
 ### aboutpage
-![alt text](image-1.png)
+
 ### contactpage
-![alt text](image-2.png)
+
 ### servicepage
+![alt text](image-1.png)
+![alt text](image-2.png)
 ![alt text](image-3.png)
-![alt text](image-4.png)
+
 
 
 

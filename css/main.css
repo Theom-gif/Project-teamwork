@@ -172,7 +172,6 @@ button:hover{
 .see-more{
     margin-top: 12px;
     width: 100px;
-<<<<<<< HEAD
     border: 1px black solid;
     padding: 5px;
     margin-left: 90px;
@@ -181,11 +180,8 @@ button:hover{
     display: flex;
     justify-content: space-around;
     padding: 24px;
-}
-=======
     text-align: center;
     margin-left: 12px;
     margin-top: 50px;
 } 
 
->>>>>>> 8b735d2083577e2e662b4ff8735b9965c43b6c1e

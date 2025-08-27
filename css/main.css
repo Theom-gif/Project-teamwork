@@ -1,3 +1,10 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: sans-serif;
+}
 .menu{
     display: flex;
     justify-content:space-around;
@@ -25,16 +32,20 @@ a{
 
 }
 .main img{
-    width: 40%;
+    width: 30%;
     margin-top: 24px;
 }
 .main{
     display: flex;
     justify-content: space-around;
-    height: 550px;
-    
 }
-
+.main h1{
+    font-size:40px;
+    color:  rgb(82, 33, 33);
+}
+.text{
+    margin-top: 50px
+}
 
 
 .main {
@@ -47,6 +58,7 @@ button{
     padding: 12px 16px;
     background: brown;
     color: white;
+    border: none;
        
 }
 
@@ -109,44 +121,68 @@ button:hover{
 }
 
 .card .Order:hover{
-    background: white;
+    background-color: rgba(255, 166, 0, 0.775); ;
 }
-.head{
-    background-color: rgb(63, 31, 31);
-    text-align: center;
-    padding: 30px 0px;
+.address{
+    display: flex;
+    gap: 72px;
+    /* background: rgb(78, 20, 20); */
+    height: 530px;
+}
+.contact{
+    padding-left: 56px;
     color: white;
 }
 /* .box{
     background-color: rgb(235, 220, 220);
     height: fit-content;
+.imag img{
+    padding-top: 24px;
+    border-radius: 8px;
+    color: blue;
+}
+.head{
     display: flex;
     justify-content: space-around;
-    padding:24px;
+    background-color: rgb(185, 128, 128);
+    width: 100%;
+    padding: 20px 0px;
+    color: white;
+    
 }
-.box-contant{
-    width: 320px;
-    height:350px;
-    background-color: white;
-   border-radius: 12px;
+.head img{
+    width: 250px;
+    border-radius: 40px;
 }
-.History{
-    background-color: rgb(82, 33, 33);
-    border-top-left-radius: 12px;
-    border-top-right-radius: 12px;
+
+.head-text{
+    margin-top: 30px;
+}
+.head-text p{
+    margin-top: 12px;
+
+}
+.about{
+    width: 300px;
+    height: 180px;
+    border: 1px solid black;
     text-align: center;
-    padding:5px;
-     color: white;
+    margin-top: 20px;
 }
-.box-contant p{
-    text-align: center;
-    margin-top: 24px;
-   
+.para{
+    margin-top: 12px;
 }
-.See{
-    border: black solid 1px;
-    padding: 10px;
+.see-more{
+    margin-top: 12px;
     width: 100px;
+    border: 1px black solid;
+    padding: 5px;
+    margin-left: 90px;
+}
+.main-about{
+    display: flex;
+    justify-content: space-around;
+    padding: 24px;
     text-align: center;
     margin-left: 12px;
     margin-top: 50px;
@@ -198,4 +234,5 @@ button:hover{
     margin-left: 12px;
     margin-top: 50px;
 }
+
 

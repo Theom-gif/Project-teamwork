@@ -164,7 +164,6 @@ button:hover{
     height: 180px;
     border: 1px solid black;
     text-align: center;
-    margin-top: 20px;
 }
 .para{
     margin-top: 12px;
@@ -174,14 +173,74 @@ button:hover{
     width: 100px;
     border: 1px black solid;
     padding: 5px;
-    margin-left: 90px;
+
 }
 .main-about{
     display: flex;
     justify-content: space-around;
     padding: 24px;
     text-align: center;
-    margin-left: 12px;
-    margin-top: 50px;
+    gap: 12px;
 }
+
+/* #about */
+@media (max-width:720px) {
+  .menu {
+   display: flex;
+   flex-direction: column;
+   height: fit-content;
+  }
+  .divbar{
+    display: flex;
+    flex-direction: column;
+  }
+
+}
+@media (max-width:425px) {
+    body{
+        width: fit-content;
+    }
+  .menu {
+   display: flex;
+   flex-direction: column;
+   height: fit-content;
+}
+.head-text{
+    text-align: center;  
+}
+.head img{
+    display: none;
+}
+.main-about{
+    width: 100%;
+    height: fit-content;
+    display: flex;
+    flex-direction:column;
+    gap: 12px;
+    align-items: center;
+
+}
+.divbar{
+    display: flex;
+    flex-direction: column;
+}
+}
+/* / */
+/* homepage */
+@media (max-width:720px){
+    .text{
+        margin-left: 30px;
+    }
+
+}
+@media (max-width:425px){
+    .text{
+        margin-left: 30px;
+    }
+    .main{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+}
+/* / */
 
